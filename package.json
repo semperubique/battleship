@@ -4,7 +4,7 @@
   "description": "A classic battleship game implemented in JavaScript with outstanding user interface.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/semperubique/battleship#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "jest": "^29.2.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
